@@ -13,7 +13,7 @@
 
         <field name="name"              type="string"       column="name"           length="255"/>
 
-        <field name="url"               type="text"         column="url"            nullable="true"/>
+        <field name="url"               type="string"         column="url"     length="255"       nullable="true"/>
 
         <field name="parentId"          type="integer"      column="parent_id"      nullable="true" />
         <field name="targetId"          type="integer"      column="target_id"      nullable="true" />
