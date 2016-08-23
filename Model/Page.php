@@ -106,7 +106,7 @@ abstract class Page implements PageInterface
     /**
      * @var bool
      */
-    protected $enabled = false;
+    protected $enabled = true;
 
     /**
      * @var PageBlockInterface[]
@@ -146,7 +146,7 @@ abstract class Page implements PageInterface
     /**
      * @var string
      */
-    protected $templateCode;
+    protected $templateCode = '';
 
     /**
      * @var int
