@@ -106,7 +106,7 @@ abstract class Page implements PageInterface
     /**
      * @var bool
      */
-    protected $enabled;
+    protected $enabled = false;
 
     /**
      * @var PageBlockInterface[]
