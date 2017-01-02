@@ -13,9 +13,9 @@
 
         <field name="name"              type="string"       column="name"           length="255"/>
 
-        <field name="slug"              type="text"         column="slug"           nullable="true"/>
-        <field name="url"               type="text"         column="url"            nullable="true"/>
-        <field name="customUrl"         type="text"         column="custom_url"     nullable="true"/>
+        <field name="slug"              type="string"         column="slug"      length="255"     nullable="true"/>
+        <field name="url"               type="string"         column="url"       length="255"     nullable="true"/>
+        <field name="customUrl"         type="string"         column="custom_url"   length="255"  nullable="true"/>
 
         <field name="requestMethod"     type="string"       column="request_method"     length="255" nullable="true" />
 
